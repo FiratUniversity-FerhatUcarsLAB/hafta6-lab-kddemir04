@@ -41,20 +41,12 @@ public class NotSistemi {
         System.out.printf("\nOnur listesi:   %s", onurListe ? "EVET" : "HAYIR");
         System.out.printf("\nBütünleme   :   %s", butunleme ? "VAR" : "YOK");
 
-
-
-
-
-
-
-
+        reader.close();
 
     }
    static double calculateAverage(double vize, double finalNot, double odev){
 
         return vize * 0.3 + finalNot * 0.4 + odev * 0.3;
-
-
 
     }
    static boolean isPassingGrade(double ortalama){
@@ -80,3 +72,4 @@ public class NotSistemi {
         return a >= 40 && a < 50;
     }
 }
+
