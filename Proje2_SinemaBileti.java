@@ -167,6 +167,8 @@ public class SinemaBileti {
 
 
     }
+
+    //METOT7 BILET BILGISI OLUSTURMA
     static String generateTicketInfo (int gun, int saat, int yas, int meslek, int film,
                                       boolean haftasonuMu, boolean matineMi,
                                       int temelFiyat, int indirim, int toplamFiyat){
@@ -214,3 +216,4 @@ public class SinemaBileti {
 
 
 }
+
